@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Codex Multiversal — Lore dos Grandes RPGs</title>
+  <meta name="description" content="Um codex interativo com a lore de The Witcher, Elder Scrolls, Dark Souls, Final Fantasy VII, Dragon Age, Mass Effect, Diablo, D&D e Persona." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Cormorant+Upright:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+  <!-- Poeira de partículas ambientais -->
+  <div class="motes" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="topbar__mark">
+      <span class="topbar__rune">Ϟ</span>
+      <span class="topbar__title">Codex Multiversal</span>
+    </div>
+    <nav class="topbar__nav">
+      <a href="#estante">A Estante</a>
+      <a href="#sobre">Sobre o Codex</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO: a mesa do escriba, livro aberto -->
+    <section class="hero">
+      <div class="hero__book" aria-hidden="true">
+        <div class="hero__page hero__page--left">
+          <div class="hero__page-lines"></div>
+        </div>
+        <div class="hero__page hero__page--right">
+          <div class="hero__page-lines"></div>
+        </div>
+        <div class="hero__spine"></div>
+      </div>
+
+      <div class="hero__content">
+        <p class="eyebrow">Um arquivo entre mundos</p>
+        <h1 class="hero__title">Nove tomos.<br>Nove universos.<br>Um único codex.</h1>
+        <p class="hero__desc">
+          Cada RPG guarda séculos de mitologia em suas linhas de diálogo e itens esquecidos.
+          Este codex reúne a lore essencial de nove dos universos mais influentes dos RPGs —
+          suas cosmogonias, facções e figuras que decidem o destino de mundos inteiros.
+        </p>
+
+        <div class="hero__search">
+          <label for="search-input" class="sr-only">Buscar no codex</label>
+          <input
+            id="search-input"
+            type="search"
+            placeholder="Busque por um deus, uma facção, um herói..."
+            autocomplete="off"
+          />
+          <div id="search-results" class="hero__search-results" hidden></div>
+        </div>
+
+        <dl class="hero__stats" id="hero-stats">
+          <div class="hero__stat">
+            <dt>Tomos</dt>
+            <dd data-stat="totalGames">—</dd>
+          </div>
+          <div class="hero__stat">
+            <dt>Facções catalogadas</dt>
+            <dd data-stat="totalFactions">—</dd>
+          </div>
+          <div class="hero__stat">
+            <dt>Figuras-chave</dt>
+            <dd data-stat="totalFigures">—</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ESTANTE -->
+    <section id="estante" class="shelf-section">
+      <div class="shelf-section__header">
+        <p class="eyebrow">Escolha um tomo</p>
+        <h2>A Estante</h2>
+      </div>
+
+      <div id="shelf" class="shelf" aria-live="polite">
+        <!-- Tomos injetados via JS -->
+      </div>
+    </section>
+
+    <section id="sobre" class="about">
+      <div class="about__inner">
+        <p class="eyebrow">Sobre o codex</p>
+        <h2>Um arquivo, não um veredito</h2>
+        <p>
+          As entradas aqui são resumos escritos para orientar quem quer entender rapidamente
+          a espinha dorsal mitológica de cada universo — não substituem os jogos, livros ou
+          o material original de cada obra. Cada tomo pertence a seus respectivos criadores e estúdios.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- MODAL: página aberta do tomo -->
+  <div id="tome-overlay" class="tome-overlay" hidden>
+    <div class="tome-modal" role="dialog" aria-modal="true" aria-labelledby="tome-title">
+      <button id="tome-close" class="tome-modal__close" aria-label="Fechar tomo">✕</button>
+      <div id="tome-content" class="tome-modal__content">
+        <!-- Conteúdo injetado via JS -->
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>Codex Multiversal — feito para fãs de RPG. Toda lore pertence às suas franquias originais.</p>
+  </footer>
+
+  <script src="/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,209 @@
+[
+  {
+    "id": "witcher",
+    "name": "The Witcher",
+    "tagline": "Monstros de carne e monstros de escolha",
+    "spineColor": "#8b2635",
+    "sigil": "🐺",
+    "developer": "CD Projekt Red",
+    "origin": "Baseado nos livros de Andrzej Sapkowski",
+    "setting": "O Continente, um mundo medieval sombrio dividido entre reinos humanos em guerra, onde a magia se mistura com política e xenofobia.",
+    "era": "Era pós-Conjunção das Esferas, quando monstros de outros planos ficaram presos neste mundo",
+    "summary": "A lore do Continente gira em torno da Conjunção das Esferas, um evento cataclísmico que fundiu vários universos e trouxe monstros, magia e elfos para o mundo dos homens. Séculos depois, humanos dominam o território através da guerra e da perseguição a raças mais antigas, como elfos e anões, enquanto Witchers - caçadores de monstros mutados geneticamente - vagam como mercenários desprezados por todos, mas necessários para conter as ameaças que a magia descontrolada libertou.",
+    "factions": [
+      {"name": "Escola do Lobo", "desc": "Ordem de Witchers que treina caçadores de monstros em Kaer Morhen, submetendo crianças a mutações brutais."},
+      {"name": "Nilfgaard", "desc": "Império expansionista do sul que busca unificar o Continente sob seu domínio através de conquista militar."},
+      {"name": "Scoia'tael", "desc": "Guerrilheiros elfos e anões que lutam contra a opressão humana usando táticas de guerrilha nas florestas."},
+      {"name": "Loja de Feiticeiras", "desc": "Conselho de magas poderosas que manipula a política dos reinos humanos nos bastidores."}
+    ],
+    "keyFigures": [
+      {"name": "Geralt de Rívia", "role": "Witcher da Escola do Lobo, protagonista que navega neutralidade em um mundo que exige escolhas."},
+      {"name": "Yennefer de Vengerberg", "role": "Feiticeira poderosa e ex-corcunda transformada, ligada ao destino de Geralt e Ciri."},
+      {"name": "Ciri", "role": "Princesa de Cintra com sangue élfico ancestral, portadora de um poder capaz de viajar entre mundos."}
+    ],
+    "themes": ["destino", "preconceito racial", "moralidade cinzenta", "guerra"]
+  },
+  {
+    "id": "elder-scrolls",
+    "name": "The Elder Scrolls",
+    "tagline": "Nove eras de profecias e impérios",
+    "spineColor": "#3d6b6b",
+    "sigil": "🐲",
+    "developer": "Bethesda Game Studios",
+    "origin": "Série de jogos iniciada em 1994",
+    "setting": "Tamriel, um continente dividido em províncias culturalmente distintas, cercado por planos de Oblivion habitados por Daedra.",
+    "era": "Abrange desde a Era Mítica até a atual Quarta Era",
+    "summary": "A cosmologia de Tamriel nasce da criação do mundo por Anu e Padomay, forças de estase e mudança, e do sacrifício do deus-dragão Lorkhan para dar origem aos mortais. Cada província - Cyrodiil, Skyrim, Morrowind, entre outras - guarda sua própria mitologia, panteão e conflitos étnicos, enquanto Imperadores Dragão e profecias antigas moldam a história através de invasões daédricas, guerras entre elfos e homens, e o eterno ciclo do Dragon Break, onde o tempo em si se fragmenta.",
+    "factions": [
+      {"name": "Império de Cyrodiil", "desc": "Potência dominante fundada pelos Septim, que busca unificar Tamriel sob um só trono."},
+      {"name": "Thalmor", "desc": "Governo supremacista Altmer (Elfo Alto) que trabalha para restaurar a hegemonia élfica e enfraquecer o culto a Talos."},
+      {"name": "Legião das Sombras / Grey Fox", "desc": "Guilda de ladrões e assassinos que operam nas margens da sociedade imperial."},
+      {"name": "Companheiros e Guildas Antigas", "desc": "Ordens tradicionais de guerreiros, magos e ladrões presentes em quase toda província."}
+    ],
+    "keyFigures": [
+      {"name": "Tiber Septim / Talos", "role": "Mortal que unificou Tamriel e foi elevado à divindade, tornando-se figura central de conflito religioso."},
+      {"name": "Vivec", "role": "Deus-guerreiro poeta de Morrowind, um dos Tribunais viventes que protegeram sua terra por eras."},
+      {"name": "Sheogorath / Jyggalag", "role": "Príncipe Daedrico da Loucura, preso em um ciclo eterno de ordem e caos."}
+    ],
+    "themes": ["cosmologia", "profecia", "imperialismo", "identidade cultural"]
+  },
+  {
+    "id": "dark-souls",
+    "name": "Dark Souls",
+    "tagline": "Fragmentos de fogo se apagando",
+    "spineColor": "#4a4238",
+    "sigil": "🔥",
+    "developer": "FromSoftware",
+    "origin": "Primeiro jogo lançado em 2011",
+    "setting": "Lordran e reinos posteriores, terras em decadência onde a Era do Fogo caminha para seu fim inevitável.",
+    "era": "O ciclo interminável entre Fogo e Escuridão",
+    "summary": "A lore é contada de forma fragmentada, através de itens, arquitetura e diálogos crípticos. No princípio havia apenas Escuridão, até que o Primeiro Fogo surgiu e trouxe vida, calor e desigualdade entre as almas. Deuses ascenderam ao poder linkando o Fogo, mas essa chama se apaga com o tempo, levando reinos à decadência, mortos-vivos amaldiçoados e escolhas repetidas entre prolongar uma era morrendo ou permitir que a Escuridão retorne.",
+    "factions": [
+      {"name": "Deuses de Lordran", "desc": "Gwyn e seus seguidores, que sacrificaram tudo para vincular o Primeiro Fogo e adiar a chegada da Era da Escuridão."},
+      {"name": "Filhos do Caos", "desc": "Descendentes da Bruxa de Izalith, marcados por uma tentativa fracassada de replicar o Fogo que gerou demônios."},
+      {"name": "Não-Mortos Amaldiçoados", "desc": "Portadores da Marca Escura, condenados a vagar até enlouquecer ou cumprir um propósito ancestral."}
+    ],
+    "keyFigures": [
+      {"name": "Gwyn, Senhor da Luz", "role": "Deus que sacrificou sua própria humanidade para manter o Fogo aceso, tornando-se uma sombra de si mesmo."},
+      {"name": "Solaire de Astora", "role": "Cavaleiro errante em busca de seu próprio sol, símbolo de esperança em um mundo decadente."}
+    ],
+    "themes": ["decadência", "ciclos eternos", "sacrifício", "ambiguidade narrativa"]
+  },
+  {
+    "id": "final-fantasy-vii",
+    "name": "Final Fantasy VII",
+    "tagline": "Mako, memória e um planeta ferido",
+    "spineColor": "#2d5a3d",
+    "sigil": "🌌",
+    "developer": "Square (atual Square Enix)",
+    "origin": "Lançado originalmente em 1997",
+    "setting": "Gaia, planeta cuja energia vital (Mako) é extraída por megacorporações para abastecer cidades futuristas como Midgar.",
+    "era": "Era da exploração industrial de Mako",
+    "summary": "A lore explora a exploração ambiental através da Shinra Electric Power Company, que drena a energia vital do planeta para gerar eletricidade, ameaçando o próprio equilíbrio de Gaia. No centro está a Corrente Vital, um fluxo de consciência coletiva que conecta toda vida, e a ameaça de Sephiroth, um ex-soldado de elite manipulado por resquícios de uma civilização alienígena antiga conhecida como Cetra, que busca desencadear um evento capaz de drenar toda a energia do planeta para si.",
+    "factions": [
+      {"name": "Shinra Electric Power Company", "desc": "Megacorporação que controla energia, exército e governo de fato através da extração de Mako."},
+      {"name": "Avalanche", "desc": "Grupo eco-terrorista que sabota reatores de Mako para proteger o planeta da exploração da Shinra."},
+      {"name": "SOLDIER", "desc": "Unidade de elite da Shinra composta por soldados aprimorados geneticamente com células de Jenova."}
+    ],
+    "keyFigures": [
+      {"name": "Cloud Strife", "role": "Ex-soldado de identidade fraturada que lidera a resistência contra Sephiroth e a Shinra."},
+      {"name": "Sephiroth", "role": "Ex-herói corrompido por sua origem alienígena, antagonista central da saga."},
+      {"name": "Aerith Gainsborough", "role": "Última Cetra pura, conectada diretamente à Corrente Vital do planeta."}
+    ],
+    "themes": ["exploração ambiental", "identidade", "corporativismo", "memória"]
+  },
+  {
+    "id": "dragon-age",
+    "name": "Dragon Age",
+    "tagline": "Fé, magia e o Véu que separa mundos",
+    "spineColor": "#6b2d5c",
+    "sigil": "⚔️",
+    "developer": "BioWare",
+    "origin": "Primeiro jogo lançado em 2009",
+    "setting": "Thedas, continente marcado por tensões religiosas entre a Capela e magos, e pela ameaça constante dos Darkspawn.",
+    "era": "Era do Dragão",
+    "summary": "A lore de Thedas é construída sobre o Véu, uma barreira mágica que separa o mundo material do Fade, plano onde sonhos, espíritos e demônios residem. A religião dominante, a Capela, venera Andraste e mantém magos sob rígido controle em Círculos, temendo sua vulnerabilidade à possessão demoníaca. Periodicamente, Blights - invasões de criaturas corrompidas chamadas Darkspawn, lideradas por Arautos Antigos corrompidos - ameaçam varrer civilizações inteiras, forçando a aliança de reinos rivais.",
+    "factions": [
+      {"name": "Capela (Chantry)", "desc": "Instituição religiosa dominante que controla a fé, a educação e a vigilância sobre magos em Thedas."},
+      {"name": "Círculo de Magos e Templários", "desc": "Sistema que confina magos em torres vigiadas por templários, criando tensão constante entre liberdade e segurança."},
+      {"name": "Guardiões Cinzentos", "desc": "Ordem que sacrifica vida e sanidade para combater os Darkspawn durante os Blights."},
+      {"name": "Qunari", "desc": "Povo de outra terra guiado por uma filosofia rígida de propósito e ordem social, o Qun."}
+    ],
+    "keyFigures": [
+      {"name": "Andraste", "role": "Profetisa venerada como figura central da fé da Capela, queimada por traição em uma fogueira."},
+      {"name": "Flemeth / Mythal", "role": "Figura ancestral élfica ligada a mitos antigos, muito mais antiga do que aparenta."}
+    ],
+    "themes": ["fé versus liberdade", "corrupção", "sacrifício coletivo", "colonialismo cultural"]
+  },
+  {
+    "id": "mass-effect",
+    "name": "Mass Effect",
+    "tagline": "A galáxia entre a cooperação e a extinção",
+    "spineColor": "#1f4e79",
+    "sigil": "🛸",
+    "developer": "BioWare",
+    "origin": "Primeiro jogo lançado em 2007",
+    "setting": "Via Láctea no século XXII, onde espécies alienígenas coexistem sob o Conselho Cidadela após a descoberta de tecnologia ancestral.",
+    "era": "Era pós-descoberta dos Relés de Massa",
+    "summary": "A lore parte da descoberta de tecnologia deixada por uma civilização extinta em Marte, que impulsiona a humanidade rumo às estrelas e à convivência com espécies como Turianos, Asari e Salarianos sob o Conselho Cidadela. Por trás de toda a tecnologia galáctica existe um ciclo oculto: os Reapers, máquinas sintético-orgânicas colossais que exterminam periodicamente toda vida avançada da galáxia para preservá-la de forma perversa, um padrão que se repete há eras e que poucos acreditam ser real até ser tarde demais.",
+    "factions": [
+      {"name": "Conselho Cidadela", "desc": "Governo multiespécie que administra política, comércio e segurança da galáxia a partir da estação Cidadela."},
+      {"name": "Alliance Militar Humana", "desc": "Força militar da recém-chegada humanidade, ansiosa por reconhecimento entre espécies mais antigas."},
+      {"name": "Reapers", "desc": "Inteligências sintético-orgânicas antigas responsáveis por ciclos de extinção em massa."},
+      {"name": "Cerberus", "desc": "Organização humana pró-humanidade disposta a métodos extremos e antiéticos para garantir vantagem à espécie."}
+    ],
+    "keyFigures": [
+      {"name": "Comandante Shepard", "role": "Primeiro humano Spectre, protagonista que une espécies rivais contra a ameaça Reaper."},
+      {"name": "Saren Arterius", "role": "Turiano condecorado corrompido por tecnologia Reaper, antagonista do primeiro capítulo."}
+    ],
+    "themes": ["diplomacia intergaláctica", "ciclos de extinção", "identidade sintética", "unidade versus divisão"]
+  },
+  {
+    "id": "diablo",
+    "name": "Diablo",
+    "tagline": "O Eterno Conflito entre Céu e Inferno",
+    "spineColor": "#7a1f1f",
+    "sigil": "😈",
+    "developer": "Blizzard Entertainment",
+    "origin": "Primeiro jogo lançado em 1996",
+    "setting": "Santuário, mundo mortal criado secretamente por um anjo e uma demônia como refúgio da guerra eterna.",
+    "era": "Era pós-fundação de Santuário",
+    "summary": "A lore centra-se no Eterno Conflito, guerra sem fim entre os Céus Elevados e os Infernos Ardentes. Santuário foi criado às escondidas por Inarius e Lilith, um anjo e uma demônia, como um lugar livre desse conflito, dando origem à humanidade - descendentes híbridos com potencial para o livre-arbítrio que nem anjos nem demônios possuem plenamente. Esse potencial humano torna Santuário um prêmio cobiçado por ambos os lados, e os Prime Evils, como Diablo, Mephisto e Baal, buscam repetidamente corromper o mundo mortal para conquistá-lo ou destruí-lo.",
+    "factions": [
+      {"name": "Prime Evils", "desc": "Diablo (Terror), Mephisto (Ódio) e Baal (Destruição), os três demônios mais poderosos do Inferno."},
+      {"name": "Conselho Angelical", "desc": "Hierarquia celestial que vê a existência de Santuário como uma afronta à ordem divina."},
+      {"name": "Nephalem", "desc": "Descendentes diretos de anjos e demônios, mortais com potencial de poder que rivaliza com seres celestiais."},
+      {"name": "Irmandade Horadrim", "desc": "Ordem de magos criada para caçar e aprisionar os Prime Evils usando Pedras-Alma."}
+    ],
+    "keyFigures": [
+      {"name": "Lilith", "role": "Demônia fundadora de Santuário, mãe simbólica da humanidade e figura recorrente de rebelião."},
+      {"name": "Diablo, Senhor do Terror", "role": "O mais insidioso dos Prime Evils, mestre em corromper mortais pela sedução do medo."}
+    ],
+    "themes": ["livre-arbítrio", "corrupção gradual", "guerra eterna entre extremos", "sacrifício humano"]
+  },
+  {
+    "id": "baldurs-gate",
+    "name": "Baldur's Gate / D&D",
+    "tagline": "Forgotten Realms e os deuses de Faerûn",
+    "spineColor": "#4a3728",
+    "sigil": "🎲",
+    "developer": "BioWare / Larian Studios",
+    "origin": "Baseado no cenário Forgotten Realms de Dungeons & Dragons",
+    "setting": "Faerûn, continente de alta fantasia com panteão ativo, magia selvagem e cidades-estado independentes como Baldur's Gate e Waterdeep.",
+    "era": "Séculos após o Tempo dos Problemas, quando deuses caminharam entre mortais",
+    "summary": "Faerûn é um cenário onde deuses interferem diretamente nos assuntos mortais, cada um exigindo devoção através de igrejas organizadas e clérigos que recebem magia divina. A magia arcana é regulada por leis cósmicas que já foram rompidas no passado durante o Tempo dos Problemas, quando os próprios deuses foram forçados a caminhar como mortais. Cidades como Baldur's Gate equilibram poder político entre guildas, nobres e cultos secretos, enquanto ameaças como cultos a Bhaal, o deus do assassinato, ou invasões de Illithids (devoradores de mentes) testam constantemente a estabilidade da região.",
+    "factions": [
+      {"name": "Igrejas Divinas de Faerûn", "desc": "Organizações religiosas dedicadas a deuses específicos como Tyr, Bhaal ou Mystra, cada uma com agenda própria."},
+      {"name": "Harpistas", "desc": "Rede secreta que trabalha nos bastidores para impedir a concentração excessiva de poder tirânico."},
+      {"name": "Zhentarim", "desc": "Organização mercantil e militar de influência ambígua que busca poder através do comércio e da força."},
+      {"name": "Illithids / Devoradores de Mentes", "desc": "Espécie psiônica alienígena que escraviza mentes para expandir seu império subterrâneo."}
+    ],
+    "keyFigures": [
+      {"name": "Bhaal, Senhor do Assassinato", "role": "Deus morto cujos filhos mortais (Bhaalspawn) carregam fragmentos de seu poder e essência sombria."},
+      {"name": "Elminster de Shadowdale", "role": "Arquimago lendário que serve como guardião recorrente da estabilidade mágica de Faerûn."}
+    ],
+    "themes": ["intervenção divina", "herança sombria", "política de guildas", "livre-arbítrio versus destino"]
+  },
+  {
+    "id": "persona",
+    "name": "Persona",
+    "tagline": "Máscaras da psique e o Mundo do Metrô",
+    "spineColor": "#2d2d5c",
+    "sigil": "🎭",
+    "developer": "Atlus",
+    "origin": "Spin-off da série Megami Tensei",
+    "setting": "Cidades japonesas contemporâneas com camadas ocultas de realidade acessíveis apenas a quem desperta seu potencial psicológico.",
+    "era": "Presente ficcional, geralmente ambientado na década atual de lançamento de cada jogo",
+    "summary": "A lore de Persona mistura psicologia junguiana com fantasia urbana: protagonistas despertam uma 'Persona', manifestação de sua própria psique reprimida, ao enfrentar traumas e contradições internas. Essas personas são usadas para explorar reinos alternativos que refletem a mente coletiva ou individual da sociedade, como o Palácio de desejos distorcidos ou o Metaverso, onde corrupção moral de adultos se manifesta fisicamente. Por trás de cada arco individual, forças cósmicas maiores - como Nyarlathotep ou Yaldabaoth - manipulam a apatia e o conformismo humano em busca de controle total sobre a realidade.",
+    "factions": [
+      {"name": "Phantom Thieves / Investigation Team", "desc": "Grupos de estudantes que usam seus poderes de Persona para expor corrupção oculta na sociedade."},
+      {"name": "Velvet Room", "desc": "Espaço metafísico entre sonho e realidade onde o protagonista forja e funde suas Personas."},
+      {"name": "Entidades Cósmicas", "desc": "Seres como Nyarlathotep e Yaldabaoth que manipulam a humanidade através da apatia coletiva."}
+    ],
+    "keyFigures": [
+      {"name": "Igor", "role": "Enigmático mestre da Velvet Room que guia o protagonista através de contratos e provações."},
+      {"name": "Protagonistas Silenciosos", "role": "Estudantes que despertam o 'Wild Card', habilidade rara de portar múltiplas Personas."}
+    ],
+    "themes": ["psicologia e identidade", "rebelião juvenil", "conformismo social", "máscaras versus autenticidade"]
+  }
+]
